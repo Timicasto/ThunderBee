@@ -1,0 +1,45 @@
+(kicad_sch (version 20230409) (generator eeschema)
+
+  (uuid 0304beac-e45e-4f64-b366-6bc6d40756cf)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "——A replica for ThunderScope" (exclude_from_sim no)
+ (at 132.715 60.96 0)
+    (effects (font (face "JetBrains Mono Medium") (size 6.35 6.35)) (justify left bottom))
+    (uuid 81eca9a9-f7eb-47a9-8c74-9dad7a753975)
+  )
+  (text "ThunderBee" (exclude_from_sim no)
+ (at 24.765 52.705 0)
+    (effects (font (face "Transformers Movie") (size 25.4 25.4)) (justify left bottom))
+    (uuid 92af7655-6871-4ccd-876d-5788c67abc9c)
+  )
+
+  (sheet (at 21.59 60.96) (size 67.945 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 082e6935-9062-4191-a80f-e54508606a13)
+    (property "Sheetname" "PCI-E Connectors" (at 21.59 60.2484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PCIE.kicad_sch" (at 21.59 74.2446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 21.59 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "ThunderBee"
+        (path "/0304beac-e45e-4f64-b366-6bc6d40756cf" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
