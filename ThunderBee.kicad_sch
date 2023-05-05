@@ -2,7 +2,7 @@
 
   (uuid 0304beac-e45e-4f64-b366-6bc6d40756cf)
 
-  (paper "A4")
+  (paper "A3")
 
   (lib_symbols
   )
@@ -35,6 +35,23 @@
     (instances
       (project "ThunderBee"
         (path "/0304beac-e45e-4f64-b366-6bc6d40756cf" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 21.59 83.185) (size 67.945 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 42257ed3-a2d9-4342-ac22-b069162f5666)
+    (property "Sheetname" "FPGA" (at 21.59 82.4734 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "FPGA.kicad_sch" (at 21.59 96.4696 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ThunderBee"
+        (path "/0304beac-e45e-4f64-b366-6bc6d40756cf" (page "3"))
       )
     )
   )

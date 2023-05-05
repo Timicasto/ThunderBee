@@ -2,7 +2,7 @@
 
   (uuid 2a5075d0-b978-4e47-89f1-0708f48ad600)
 
-  (paper "A4")
+  (paper "A3")
 
   (lib_symbols
     (symbol "Connector:Bus_M.2_Socket_M" (in_bom yes) (on_board yes)
@@ -1335,9 +1335,6 @@
   (global_label "PCIE_RST" (shape input) (at 122.555 27.94 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 57366fa4-b33d-4746-af20-7f4158beaaf4)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 110.9407 27.94 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 113.0049 27.94 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
