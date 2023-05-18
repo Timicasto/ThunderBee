@@ -56,6 +56,23 @@
     )
   )
 
+  (sheet (at 21.59 102.87) (size 67.945 10.795) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 950c998e-1729-4c44-b9eb-854e15ef5896)
+    (property "Sheetname" "DDR" (at 21.59 102.1584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "DDR.kicad_sch" (at 21.59 114.2496 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ThunderBee"
+        (path "/0304beac-e45e-4f64-b366-6bc6d40756cf" (page "4"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )
